@@ -1,0 +1,130 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)  {
+    #tombolCalculator{
+        display: grid;
+        grid-auto-columns: repeat(12,1fr);
+        grid-auto-rows: repeat(25,minmax(30px,auto));
+        grid-gap: 10px;
+        height: 700px;
+        max-width: 100%;
+    }    
+
+    .bodyUtama{
+        border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        border: 0px solid #000000;
+        max-width:700px;
+        background: navy; 
+        height: 950px; 
+    }
+                    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    #tombolCalculator{
+        display: grid;
+        grid-auto-columns: repeat(12,1fr);
+        grid-auto-rows: repeat(25,minmax(30px,auto));
+        grid-gap: 10px;
+        height: 400px;
+    } 
+
+    .bodyUtama{
+        border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        border: 0px solid #000000;
+        max-width:400px;
+        background: navy; 
+        height: 500px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones)*/
+@media only screen and (max-width: 767px) {
+    
+    #tombolCalculator{
+        display: grid;
+        grid-auto-columns: repeat(12,1fr);
+        grid-auto-rows: repeat(25,minmax(30px,auto));
+        grid-gap: 10px;
+        height: 400px;
+        max-width: 100%;
+    }
+
+    .bodyUtama{
+        border-radius: 55px 55px 55px 55px;
+        -moz-border-radius: 55px 55px 55px 55px;
+        -webkit-border-radius: 55px 55px 55px 55px;
+        border: 0px solid #000000;
+        max-width:400px;
+        background: navy; 
+        height: 600px;
+    }
+        
+} 
+
+.Shadow{
+    -webkit-box-shadow: 0px -6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.layarCalculator{
+    background:white;
+    margin-top:20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom:5px; 
+    height:120px;
+    border-radius: 31px 31px 31px 31px;
+    -moz-border-radius: 31px 31px 31px 31px;
+    -webkit-border-radius: 31px 31px 31px 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    color:black;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    font-size: 3em;   
+}
+
+.wrapTombol{
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    max-width:100%;
+    width:100%;
+    height: 100%;
+}
+
+
+.marginUpDown{ 
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.shadowBody{
+    -webkit-box-shadow: -8px -8px 0px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px -8px 0px -1px rgba(0,0,0,0.75);
+    box-shadow: -8px -8px 0px -1px rgba(0,0,0,0.75);
+}
+
+#tombolCalculator button{
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 2em;
+    color:white;
+    cursor: pointer;
+}

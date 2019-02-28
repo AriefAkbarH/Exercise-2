@@ -1,0 +1,89 @@
+.reset{
+	grid-row: 1/6; 
+	grid-column: 1/4;
+}
+.pangkat{
+	grid-row: 1/6; 
+	grid-column: 4/7;
+}
+
+.bagi{
+	grid-row: 1/6; 
+	grid-column: 7/10;
+}
+
+.kali{
+	grid-row: 1/6; 
+    grid-column: 10/13;
+}
+
+.tambah{
+	grid-row: 6/11; 
+	grid-column: 10/13;
+}
+
+.kurang{
+    grid-row: 11/16;
+    grid-column: 10/13; 
+}
+
+.hasil{
+    grid-row: 16/25;
+    grid-column: 10/13; 
+}
+
+.one{
+	grid-row: 6/11; 
+	grid-column: 1/4;
+}
+
+.two{
+	grid-row: 6/11; 
+	grid-column: 4/7;
+}
+
+.three{
+	grid-row: 6/11; 
+	grid-column: 7/10;
+}
+
+.four{
+    grid-row: 11/16;
+    grid-column: 1/4; 
+}
+
+.five{
+    grid-row: 11/16;
+    grid-column: 4/7; 
+}
+
+.six{
+    grid-row: 11/16;
+    grid-column: 7/10; 
+}
+
+
+.seven{
+    grid-row: 16/22;
+    grid-column: 1/4; 
+}
+
+.eight{
+    grid-row: 16/22;
+    grid-column: 4/7; 
+}
+
+.nine{
+    grid-row: 16/22;
+    grid-column: 7/10; 
+}
+
+.zero{
+    grid-row: 22/25;
+    grid-column: 1/7; 
+}
+
+.point{
+    grid-row: 22/25;
+    grid-column: 7/10; 
+}
